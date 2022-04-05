@@ -1,0 +1,33 @@
+h1{
+position: absolute;
+width: 1569px;
+height: 124px;
+left: 78px;
+bottom: 740px;
+font-family: 'Saira SemiCondensed';
+font-style: normal;
+font-weight: 500;
+font-size: 151px;
+line-height: 90.5%;
+letter-spacing: -0.03em;
+color: #FFFFFF;
+opacity: 0.97;
+}
+body
+{
+position: relative;
+width: 1440px;
+height: 1024px;
+background: #005F73;
+}
+
+.logoimg 
+{
+position: absolute;
+width: 545px;
+height: 626px;
+left: calc(50% - 545px/2 - 32.5px);
+top: calc(50% - 626px/2 + 125px);
+background: url(Untitled design.png);
+mix-blend-mode: luminosity;
+}
