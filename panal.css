@@ -1,0 +1,28 @@
+/* Desktop - 2 */
+body{
+/* width: 1440px;
+height: 1024px; */
+background: #001432;
+}
+.student-div
+{ 
+    
+    padding-left: 100px;
+    padding-top: 100px;
+    height: auto;
+}
+.img-fluid
+{
+max-width: 100%;
+height: auto;
+}
+.admin-div
+{ 
+    margin: auto;
+    padding: 150px;
+}
+.stud-admin-title
+{
+    color:aliceblue;
+    padding-left:70px;
+}
