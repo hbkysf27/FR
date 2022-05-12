@@ -1,9 +1,9 @@
 /*Home page style*/
 h1{
-position: absolute;
-font-family: 'serif',arial;
+position: center;
+font-family: 'Lato','Helvetica Neue',Arial,sans-serif;
 font-weight: 500;
-font-size: 8em;
+font-size: 7em;
 letter-spacing: -0.01em;
 color: #FFFFFF;
 text-align: center;
@@ -11,7 +11,7 @@ text-align: center;
 body
 {
 position: relative;
-background: #005F73;
+background: #42078f;
 background-position: center;
 margin: 0;
 padding: 0;
@@ -19,6 +19,7 @@ height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
 overflow: hidden;
+justify-content:center;
 }
 
 /*nav bar*/
@@ -115,12 +116,10 @@ body {
 .logoimg 
 {
 position: absolute;
-width: 545px;
-height: 626px;
-left: calc(50% - 545px/2 - 32.5px);
-top: calc(50% - 626px/2 + 125px);
-background: url(Untitled design.png);
-mix-blend-mode: luminosity;
+height: 500px;
+
+
+
 }
 /*signup*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -148,6 +147,7 @@ body {
   .title {
     font-size: 50px;
     margin-bottom: 50px;
+    color: rgb(103, 54, 136);
   }
   .inputContainer {
     position: relative;
@@ -226,4 +226,26 @@ body {
     z-index: 10;
     font-size: 14px;
     font-weight: 600;
+  }
+
+
+  @media screen and (max-width:768px) {
+    h1{
+      position: center;
+      font-family: 'serif',arial;
+      font-size: 3em;
+      letter-spacing: -0.01em;
+      color: #FFFFFF;
+      text-align: center;
+      }
+.logoimg 
+{
+position: center;
+margin-top:  90px;
+height: 450px;
+padding-top: 90px;
+}
+
+
+  
   }

@@ -106,6 +106,9 @@
             overflow-y: auto;
           }
         }
+
+
+        
             </style>
         </head>
         <body>
@@ -125,16 +128,16 @@
             </div>
             
             <div class="nav-links">
-                <a href="index.html" >Home</a>
-              <a href="admin-signin.html" >Admin</a>
-              <a href="signup.html" >Student</a>
-            </div>
+                
+              <a href="signin.php" >Admin</a>
+                    </div>
           </div>
-    <div>
+    <div class="h1-class">
         
-        
-    <h1>Face Recognition App</h1>
-    <a href="panalselector.html"><img src="images/logo.svg" width="100%" height="100%" class="logoimg"></image>
+          <h1>Face Recognition App</h1>
+    </div>
+    <div id="imglogo">
+    <a href="panalselector.php"><img src="images/logo.svg" width="100%" height="100%" class="logoimg">
         </a>
         </div>
 
